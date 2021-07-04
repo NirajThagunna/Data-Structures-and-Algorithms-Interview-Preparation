@@ -86,6 +86,8 @@
 			- Exponentiation - Calculate the pow(x, n)
 			- Modular Exponentiation - Using Recursion
 
+	- Divide and Conquer Algorithm - Algorithmic Paradigm - DAC
+
 
 - Searching Algorithms
 
@@ -108,3 +110,5 @@
 	- Bubble Sort
 	- Insertion Sort
 	- Selection Sort
+	- Merge Sort
+	- Quick Sort
