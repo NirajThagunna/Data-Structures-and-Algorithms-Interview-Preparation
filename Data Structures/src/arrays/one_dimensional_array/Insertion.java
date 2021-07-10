@@ -3,6 +3,7 @@ package arrays.one_dimensional_array;
 import java.io.PrintWriter;
 import java.io.StringWriter;
 
+import fastIO.ArrayIO;
 import fastIO.BasicIO;
 
 // Java program to insert an element at particular position
@@ -32,9 +33,14 @@ public class Insertion {
 			// initializing the values to an array
 			for (int i = 0; i < MAX; i++) {
 				System.out.print("Enter any element : ");
-				int ele = BasicIO.nextInt();
-				arr[i] = ele;
+				arr[i] = BasicIO.nextInt();
 			}
+			
+			System.out.println("Original Array: ");
+			for (int i = 0; i < MAX; i++) {
+				System.out.print(arr[i] + " ");
+			}
+			System.out.println();
 			
 			// Updating an element at a particular position
 			System.out.print("Enter the element to be insert: ");
