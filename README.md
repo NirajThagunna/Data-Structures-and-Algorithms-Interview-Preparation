@@ -115,4 +115,4 @@
 
 
 
-<hr style="2px solid red"></hr>
+<hr style="5px solid red"></hr>
