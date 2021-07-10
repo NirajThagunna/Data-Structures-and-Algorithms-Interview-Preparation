@@ -3,6 +3,7 @@ package arrays.one_dimensional_array;
 import java.io.PrintWriter;
 import java.io.StringWriter;
 
+// Java program to traverse an array i.e. printing all the elements of an array one by one
 public class Traverse {
 	
 	public static void main(String[] args) {

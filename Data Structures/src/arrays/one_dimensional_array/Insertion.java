@@ -5,7 +5,7 @@ import java.io.StringWriter;
 
 import fastIO.BasicIO;
 
-// Java program to insert an element at by particular position
+// Java program to insert an element at particular position
 public class Insertion {
 
 	// insert() to insert an element

@@ -129,3 +129,6 @@
 
 			- Traverse
 			- Insertion
+			- Deletion
+			- Updation
+			- Searching - Binary Search Algorithm
