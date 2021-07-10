@@ -112,3 +112,7 @@
 	- Selection Sort
 	- Merge Sort
 	- Quick Sort
+
+
+
+<hr style="2px solid red"></hr>
