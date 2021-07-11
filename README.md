@@ -132,3 +132,17 @@
 			- Deletion
 			- Updation
 			- Searching - Binary Search Algorithm
+			- Insert Operation in Sorted Array
+
+		- Array of Objects
+		- clone() method - Deep Copy
+
+	- Two Dimensional Array
+
+		- Row Major Order and Column Major Order
+		- clone() method - Shallow Copy
+		- Traverse
+
+	- Three Dimensional Array
+
+		- Traverse
