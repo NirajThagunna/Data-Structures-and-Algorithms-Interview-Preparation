@@ -20,9 +20,12 @@ public class PrintingSumOfSubarrays {
 				System.out.println(sum);
 				
 				// checking for the largest sum
-				if (sum > largestSum) {
-					largestSum = sum;
-				}
+//				if (sum > largestSum) {
+//					largestSum = sum;
+//				}
+				
+				largestSum = Math.max(largestSum, sum);
+				
 			}
 			System.out.println();
 		}
@@ -32,7 +35,7 @@ public class PrintingSumOfSubarrays {
 	
 	public static void main(String[] args) {
 		
-		int[] arr = {1, 2, 3, 4, 5};
+		int[] arr = {-2, 3, 4, -1, 5, -12, 6, 1, 3};
 		
 		// printing all the elements of an array
 		System.out.print("Elements of an array are: \n");
@@ -45,3 +48,8 @@ public class PrintingSumOfSubarrays {
 		System.out.println("The largest sum of sub-arrays is: " + largestSum);
 	}
 }
+
+// Time Complexity: O(N^3)
+
+
+
