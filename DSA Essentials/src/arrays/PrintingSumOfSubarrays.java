@@ -36,6 +36,7 @@ public class PrintingSumOfSubarrays {
 	public static void main(String[] args) {
 		
 		int[] arr = {-2, 3, 4, -1, 5, -12, 6, 1, 3};
+//		int[] arr = {1, 2, 4, -2, 3};
 		
 		// printing all the elements of an array
 		System.out.print("Elements of an array are: \n");
