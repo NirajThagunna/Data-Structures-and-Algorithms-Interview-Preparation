@@ -1,6 +1,7 @@
 package arrays;
 
-// Java program to find the maximum sub-arrays sum using kadane's algorithm 
+// Java program to find the maximum sub-arrays sum using kadane's algorithm
+// default implementation
 public class KadanesAlgo {
 
 	// maximumSubarraysSum() 
