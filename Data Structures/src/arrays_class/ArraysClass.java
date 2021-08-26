@@ -1,6 +1,8 @@
 package arrays_class;
 
 import java.util.Arrays;
+import java.util.Collections;
+import java.util.Comparator;
 
 // Java program to demonstrate all the static methods available in Java Arrays Class
 public class ArraysClass {
@@ -81,6 +83,28 @@ public class ArraysClass {
 		System.out.println(Arrays.toString(nums3));
 		System.out.println(nums2 == nums3);
 		System.out.println(nums2[0] == nums3[0]);
+		
+		int[] a = {1, 2, 5};
+		int[] b = {1, 2, 5};
+		
+		System.out.println(Arrays.compare(a, b));
+	
+		System.out.println(Arrays.mismatch(a, b));
+		
+		int[] nums10 = {1, 10, 2, 5, 4, 100, 50};
+		Arrays.parallelSort(nums10);
+		System.out.println(Arrays.toString(nums10));
+		
+		Integer[] nums12 = {5, 8, 2, 5, 1, 10, 7};
+		
+		System.out.println(Arrays.toString(nums12));
+		
+		// Creating a comparator
+		Comparator<Integer> comp = Collections.reverseOrder();
+		
+		Arrays.parallelSort(nums12, comp);
+		
+		System.out.println(Arrays.toString(nums12));
 		
 	}
 }
