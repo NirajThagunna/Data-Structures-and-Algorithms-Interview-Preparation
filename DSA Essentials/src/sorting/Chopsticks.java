@@ -1,5 +1,7 @@
 package sorting;
 
+import java.util.Arrays;
+
 // Java program for chopsticks
 public class Chopsticks {
 
@@ -22,6 +24,8 @@ public class Chopsticks {
 	public static void main(String[] args) {
 		
 		int[] arr = {1, 3, 3, 9, 4};
+		
+		Arrays.parallelSort(arr);
 		
 		int result = pairSticks(arr, arr.length, 2);
 		
